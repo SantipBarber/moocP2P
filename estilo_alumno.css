@@ -158,15 +158,17 @@ iframe {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    /* margin-left: 0.5rem; */
     background: #000;
 }
 
+#aside>a {
+    transition: all 1s;
+}
+
 .link-aside {
-    width: 98%;
-    height: 30%;
-    object-fit: cover;
-    padding: 0.5rem;
+    width: 100%;
+    max-height: 23vh;
+    object-fit: fill;
 }
 
 
